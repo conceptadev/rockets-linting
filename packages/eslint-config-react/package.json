@@ -3,6 +3,9 @@
   "version": "1.0.1",
   "description": "Rockets ESLint React opinions",
   "author": "Marshall Sorenson",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {
