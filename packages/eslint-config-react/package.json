@@ -1,6 +1,6 @@
 {
   "name": "@concepta/eslint-config-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rockets ESLint React opinions",
   "author": "Marshall Sorenson",
   "main": "./lib/index.js",

@@ -1,6 +1,6 @@
 {
   "name": "@concepta/prettier-config-react",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Rockets Prettier React opinions",
   "keywords": [
     "prettier"
