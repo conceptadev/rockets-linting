@@ -1,0 +1,27 @@
+{
+  "name": "@concepta/eslint-config-node",
+  "version": "0.0.0",
+  "description": "Rockets ESLint Node.JS opinions",
+  "author": "Marshall Sorenson",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint lib/*.js"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-plugin-node": "^11.1.0"
+  },
+  "engines": {
+    "node": "^16.0.0 || >= 18.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.32.0"
+  },
+  "license": "ISC"
+}

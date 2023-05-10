@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "lint": "eslint \"./*.json\" \"packages/*/src/**/*.{ts,js,json}\" --fix",
+    "prepare": "husky install"
+  }
+}
