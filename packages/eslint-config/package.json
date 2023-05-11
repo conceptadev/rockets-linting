@@ -1,21 +1,24 @@
 {
-  "name": "@concepta/eslint-config-react",
-  "version": "1.0.2",
-  "description": "Rockets ESLint React opinions",
+  "name": "@concepta/eslint-config",
+  "version": "0.0.0",
+  "description": "Rockets ESLint opinions",
   "author": "Marshall Sorenson",
+  "license": "BSD-3-Clause",
   "publishConfig": {
     "access": "public"
   },
   "main": "./lib/index.js",
-  "exports": "./lib/index.js",
+  "exports": {
+    "./node": "./lib/node.js",
+    "./react": "./lib/react.js"
+  },
   "scripts": {
     "lint": "eslint lib/*.js"
   },
   "dependencies": {
     "@typescript-eslint/parser": "^5.49.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2"
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
@@ -26,6 +29,5 @@
   },
   "peerDependencies": {
     "eslint": "^8.32.0"
-  },
-  "license": "ISC"
+  }
 }
