@@ -10,6 +10,7 @@
   "main": "./lib/index.js",
   "exports": {
     "./node": "./lib/node.js",
+    "./nest": "./lib/nest.js",
     "./react": "./lib/react.js"
   },
   "scripts": {
@@ -28,6 +29,12 @@
     "node": "^16.0.0 || >= 18.0.0"
   },
   "peerDependencies": {
+    "@darraghor/eslint-plugin-nestjs-typed": "^3.20.5",
     "eslint": "^8.32.0"
+  },
+  "peerDependenciesMeta": {
+    "@darraghor/eslint-plugin-nestjs-typed": {
+      "optional": true
+    }
   }
 }

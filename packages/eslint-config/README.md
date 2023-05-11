@@ -29,6 +29,18 @@ Add `@concepta/eslint-config` to the extends section of your `.eslintrc` configu
 }
 ```
 
+### Nest
+
+> Requires that you install the optional dependency: `@darraghor/eslint-plugin-nestjs-typed`
+
+```json
+{
+    "extends": [
+        "@concepta/eslint-config/nest"
+    ]
+}
+```
+
 ### React
 ```json
 {
