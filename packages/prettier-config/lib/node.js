@@ -2,5 +2,6 @@
 
 module.exports = {
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "endOfLine": "auto"
 };

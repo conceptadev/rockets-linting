@@ -7,5 +7,6 @@ module.exports = {
   "arrowParens": "avoid",
   "trailingComma": "all",
   "tabWidth": 2,
-  "useTabs": false
+  "useTabs": false,
+  "endOfLine": "auto"
 };
