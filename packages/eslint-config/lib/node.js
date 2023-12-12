@@ -27,6 +27,7 @@ module.exports = {
       {
         selector: ['parameter', 'classMethod'],
         format: ['camelCase'],
+        modifiers: ['unused'],
       },
     ],
     '@typescript-eslint/no-unused-vars': [
