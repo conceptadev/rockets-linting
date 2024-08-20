@@ -17,13 +17,13 @@
     "lint": "eslint lib/*.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.7.4",
-    "@typescript-eslint/parser": "^5.49.0",
+    "@typescript-eslint/eslint-plugin": "7.17.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.2.1"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
+    "eslint": "^8.56.0",
     "eslint-plugin-node": "^11.1.0"
   },
   "engines": {
