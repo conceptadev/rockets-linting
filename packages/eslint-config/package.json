@@ -1,6 +1,6 @@
 {
   "name": "@concepta/eslint-config",
-  "version": "2.0.0-alpha.1",
+  "version": "2.0.0-alpha.2",
   "description": "Rockets ESLint opinions",
   "author": "Marshall Sorenson",
   "license": "BSD-3-Clause",
