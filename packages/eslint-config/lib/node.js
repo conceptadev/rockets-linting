@@ -28,6 +28,7 @@ export default tseslint.config(
       '@typescript-eslint/interface-name-prefix': 'off',
       '@typescript-eslint/explicit-function-return-type': 'off',
       '@typescript-eslint/explicit-module-boundary-types': 'off',
+      '@typescript-eslint/no-empty-interface': 'off',
       '@typescript-eslint/no-explicit-any': 'error',
       'spaced-comment': ['warn', 'always', { block: { balanced: true } }],
       '@typescript-eslint/naming-convention': [
@@ -43,6 +44,7 @@ export default tseslint.config(
           leadingUnderscore: 'require',
         },
       ],
+      'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': [
         'error',
         {
