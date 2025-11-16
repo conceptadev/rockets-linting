@@ -44,6 +44,7 @@ export default tseslint.config(
       '@typescript-eslint/indent': 'off',
       '@typescript-eslint/member-delimiter-style': 'off',
       '@typescript-eslint/no-empty-interface': 'off',
+      '@typescript-eslint/no-empty-object-type': 'off',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/no-var-requires': 'off',
       '@typescript-eslint/no-use-before-define': 'off',
