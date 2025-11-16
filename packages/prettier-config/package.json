@@ -1,6 +1,6 @@
 {
   "name": "@concepta/prettier-config",
-  "version": "2.0.0-alpha.3",
+  "version": "2.0.0-alpha.4",
   "description": "Rockets Prettier Node.JS opinions",
   "keywords": [
     "prettier"
