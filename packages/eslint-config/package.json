@@ -4,11 +4,13 @@
   "description": "Rockets ESLint opinions",
   "author": "Marshall Sorenson",
   "license": "BSD-3-Clause",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "main": "./lib/index.js",
   "exports": {
+    ".": "./lib/index.js",
     "./node": "./lib/node.js",
     "./nest": "./lib/nest.js",
     "./react": "./lib/react.js"
@@ -17,24 +19,31 @@
     "lint": "eslint lib/*.js"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "7.17.0",
-    "@typescript-eslint/parser": "^7.18.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.2.1"
+    "@eslint/js": "^9.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "typescript-eslint": "^8.15.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-plugin-node": "^11.1.0"
+    "eslint": "^9.16.0",
+    "eslint-plugin-n": "^17.14.0"
   },
   "engines": {
-    "node": "^16.0.0 || >= 18.0.0"
+    "node": ">=20.0.0"
   },
   "peerDependencies": {
-    "@darraghor/eslint-plugin-nestjs-typed": "^3.20.5",
-    "eslint": "^8.32.0"
+    "@darraghor/eslint-plugin-nestjs-typed": "^5.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react": "^7.37.0"
   },
   "peerDependenciesMeta": {
     "@darraghor/eslint-plugin-nestjs-typed": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
       "optional": true
     }
   }

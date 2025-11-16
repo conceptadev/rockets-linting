@@ -1,7 +1,5 @@
-"use strict";
-
-module.exports = {
-  "singleQuote": true,
-  "trailingComma": "all",
-  "endOfLine": "auto"
+export default {
+  singleQuote: true,
+  trailingComma: 'all',
+  endOfLine: 'auto',
 };

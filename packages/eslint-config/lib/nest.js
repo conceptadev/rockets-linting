@@ -1,12 +1,13 @@
-"use strict";
+import tseslint from 'typescript-eslint';
+import nestjsTyped from '@darraghor/eslint-plugin-nestjs-typed';
+import nodeConfig from './node.js';
 
-module.exports = {
-  plugins: ['@darraghor/nestjs-typed'],
-  extends: [
-    './node',
-    'plugin:@darraghor/nestjs-typed/recommended'
-  ],
-  rules: {
-    "@darraghor/nestjs-typed/injectable-should-be-provided": "off"
+export default tseslint.config(
+  ...nodeConfig,
+  nestjsTyped.configs.recommended,
+  {
+    rules: {
+      '@darraghor/nestjs-typed/injectable-should-be-provided': 'off',
+    },
   },
-};
+);

@@ -7,11 +7,13 @@
   ],
   "author": "Marshall Sorenson",
   "license": "BSD-3-Clause",
+  "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "main": "./lib/index.js",
   "exports": {
+    ".": "./lib/index.js",
     "./node": "./lib/node.js",
     "./react": "./lib/react.js"
   },
@@ -19,13 +21,15 @@
     "lint": "eslint lib/*.js"
   },
   "devDependencies": {
-    "eslint": "^8.32.0",
-    "prettier": "^2.3.2"
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.2"
   },
   "engines": {
-    "node": "^16.0.0 || >= 18.0.0"
+    "node": ">=20.0.0"
   },
   "peerDependencies": {
-    "prettier": "^2.3.2"
+    "prettier": "^3.0.0"
   }
 }

@@ -1,7 +1,5 @@
-"use strict";
+import node from './node.js';
+import nest from './nest.js';
+import react from './react.js';
 
-module.exports = {
-  node: require('./node'),
-  nest: require('./nest'),
-  react: require('./react'),
-};
+export { node, nest, react };

@@ -1,6 +1,4 @@
-"use strict";
+import node from './node.js';
+import react from './react.js';
 
-module.exports = {
-  node: require('./node'),
-  react: require('./react'),
-};
+export { node, react };
